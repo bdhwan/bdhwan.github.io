@@ -13,8 +13,8 @@ Lerna Monorepo 환경에서 변경된 패키지만 배포하기
 
 `Monorepo` 는 서비스에 필요한 모든 프로젝트들을 같은 repository에 저장하는 소프트웨어 개발 전략이다. `Lerna`는 이런 레파지토리의 패키지들을 관리할 수 있는 라이브러리이다. 
 
-![lerna_logo](/_site/assets/img/lerna_logo.png)
 
+![lerna_logo](/assets/img/lerna_logo.png)
 
 
 <h2>문제</h2>
