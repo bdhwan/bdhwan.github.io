@@ -33,12 +33,20 @@ github_username:  bdhwan
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-28403131-1         # Required - replace with your tracking id
+    anonymizeIp: false 
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
