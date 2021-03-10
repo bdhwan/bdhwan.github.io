@@ -11,11 +11,11 @@ categories: docker
 docker system prune -f
 ```
 
-크론으로 주기적으로 삭제하기 
+크론으로 주기적으로 삭제하기 (매시간 55분에)
 
 ```
 sudo crontab -e
-0 3 * * * /usr/bin/docker system prune -f
+55 * * * * /usr/bin/docker system prune -f
 sudo service cron reload
 ```
 

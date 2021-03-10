@@ -36,3 +36,11 @@ fastboot flashall -w
 
 
 https://go-madhat.github.io/AOSP/
+
+
+android 11 build error
+https://cdmana.com/2020/12/202012130200521750.html
+
+
+
+https://android.gadgethacks.com/how-to/complete-guide-flashing-factory-images-android-using-fastboot-0175277/
