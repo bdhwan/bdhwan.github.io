@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "직접 실어 나른 폐기물 한 트럭"
+title: "폐기물 한 트럭을 직접 버리고 온 날"
 date: 2026-04-22 18:10:00 +0900
 categories: essay
 ---
