@@ -3,6 +3,7 @@ layout: linkpage
 title: "카카오몬 추천 제품"
 date: 2026-08-25 10:00:00 +0900
 categories: review
+permalink: /kakaomon/
 brand: "카카오몬"
 brand_short: "카카오몬"
 
