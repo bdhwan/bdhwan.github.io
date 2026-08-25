@@ -16,6 +16,11 @@ defaults:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      hide_chrome: true
 
 jekyll_analytics:
   GoogleAnalytics:
