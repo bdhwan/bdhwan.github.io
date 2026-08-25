@@ -1,10 +1,10 @@
 ---
 layout: linkpage
-title: "코코몬 추천 제품"
+title: "카카오몬 추천 제품"
 date: 2026-08-25 10:00:00 +0900
 categories: review
-brand: "코코몬"
-brand_short: "코코몬"
+brand: "카카오몬"
+brand_short: "카카오몬"
 
 # ── 쿠팡 파트너스 설정 ───────────────────────────────
 # partner_id: 쿠팡 파트너스 아이디(lptag). 본인 것으로 교체하세요.
@@ -94,37 +94,30 @@ products:
   <p class="ap-disclose">이 게시물은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 
   <header class="ap-hero">
-    <svg class="ap-logo" viewBox="0 0 120 120" role="img" aria-label="코코몬 로고">
+    <svg class="ap-logo" viewBox="0 0 120 120" role="img" aria-label="카카오몬 로고">
+      <!-- 배경 -->
+      <circle cx="60" cy="60" r="58" fill="#FFC12B"/>
       <!-- 귀 -->
-      <circle cx="24" cy="54" r="14" fill="#7A5233"/>
-      <circle cx="24" cy="54" r="7.5" fill="#C9926A"/>
-      <circle cx="96" cy="54" r="14" fill="#7A5233"/>
-      <circle cx="96" cy="54" r="7.5" fill="#C9926A"/>
-      <!-- 코코넛 껍질 머리 -->
-      <circle cx="60" cy="60" r="34" fill="#7A5233"/>
-      <!-- 껍질 섬유결 -->
-      <g stroke="#5E3E26" stroke-width="1.6" stroke-linecap="round" opacity=".55" fill="none">
-        <path d="M40 34c4 6 5 12 4 18"/>
-        <path d="M52 29c2 7 2 13 1 19"/>
-        <path d="M68 29c-2 7-2 13-1 19"/>
-        <path d="M80 34c-4 6-5 12-4 18"/>
-      </g>
-      <!-- 코코넛 씨눈 3개 -->
-      <circle cx="51" cy="38" r="2.6" fill="#4A2F1C"/>
-      <circle cx="60" cy="35" r="2.6" fill="#4A2F1C"/>
-      <circle cx="69" cy="38" r="2.6" fill="#4A2F1C"/>
-      <!-- 코코넛 속살 얼굴 -->
-      <ellipse cx="60" cy="68" rx="23" ry="19" fill="#F7EADB"/>
+      <circle cx="27" cy="57" r="11.5" fill="#8B5E3C"/>
+      <circle cx="27" cy="57" r="6" fill="#C9926A"/>
+      <circle cx="93" cy="57" r="11.5" fill="#8B5E3C"/>
+      <circle cx="93" cy="57" r="6" fill="#C9926A"/>
+      <!-- 머리 -->
+      <circle cx="60" cy="62" r="29" fill="#8B5E3C"/>
+      <!-- 이마 앞머리 -->
+      <path d="M42 46c4-8 11-12 18-12s14 4 18 12c-5-4-11-6-18-6s-13 2-18 6z" fill="#6F4728"/>
+      <!-- 얼굴 -->
+      <ellipse cx="60" cy="70" rx="19" ry="15.5" fill="#F7E6D2"/>
       <!-- 눈 -->
-      <circle cx="51" cy="62" r="4.2" fill="#33231A"/>
-      <circle cx="69" cy="62" r="4.2" fill="#33231A"/>
-      <circle cx="52.4" cy="60.6" r="1.4" fill="#FFFFFF"/>
-      <circle cx="70.4" cy="60.6" r="1.4" fill="#FFFFFF"/>
+      <circle cx="52" cy="65.5" r="3.6" fill="#3B2A1E"/>
+      <circle cx="68" cy="65.5" r="3.6" fill="#3B2A1E"/>
+      <circle cx="53.2" cy="64.3" r="1.2" fill="#FFFFFF"/>
+      <circle cx="69.2" cy="64.3" r="1.2" fill="#FFFFFF"/>
       <!-- 코 -->
-      <ellipse cx="56.4" cy="73" rx="1.7" ry="1.3" fill="#A87E5C"/>
-      <ellipse cx="63.6" cy="73" rx="1.7" ry="1.3" fill="#A87E5C"/>
+      <ellipse cx="56.6" cy="73" rx="1.6" ry="1.2" fill="#B08968"/>
+      <ellipse cx="63.4" cy="73" rx="1.6" ry="1.2" fill="#B08968"/>
       <!-- 입 -->
-      <path d="M52 78c3.4 3.6 12.6 3.6 16 0" fill="none" stroke="#A87E5C"
+      <path d="M53 77.5c3.4 3.8 10.6 3.8 14 0" fill="none" stroke="#B08968"
             stroke-width="2.6" stroke-linecap="round"/>
     </svg>
     <h1 class="ap-title">{{ page.brand | default: site.title }}</h1>
@@ -188,7 +181,7 @@ body.layout-linkpage .wrapper{ max-width:none; margin:0; padding:0; }
 }
 
 .ap-hero{ padding:44px 0 44px; text-align:center; }
-.ap-logo{ width:88px; height:88px; display:block; margin:0 auto 20px; }
+.ap-logo{ width:86px; height:86px; display:block; margin:0 auto 20px; }
 .ap-title{
   margin:0; font-size:44px; line-height:1.08; font-weight:600;
   letter-spacing:-.024em; color:#1d1d1f;
