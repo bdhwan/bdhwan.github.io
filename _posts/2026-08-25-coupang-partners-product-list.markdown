@@ -32,6 +32,13 @@ products:
     price: "28,620원"
     image: "/assets/img/kakaomon/mount.jpg"
     note: ""
+
+  - id: "9557438411"
+    name: "톰앤하이크 철봉 후크 스트랩 매달리기 턱걸이 풀업 그립"
+    link: ""
+    price: "13,400원"
+    image: "/assets/img/kakaomon/pullup-strap.jpg"
+    note: ""
 ---
 
 <div class="ap">
