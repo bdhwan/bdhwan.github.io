@@ -39,6 +39,13 @@ products:
     price: "13,400원"
     image: "/assets/img/kakaomon/pullup-strap.jpg"
     note: ""
+
+  - id: "9198377251"
+    name: "Mirsh 헬스 손바닥 보호 턱걸이 그립 스트랩 밴드"
+    link: ""
+    price: "8,910원"
+    image: "/assets/img/kakaomon/palm-grip.jpg"
+    note: ""
 ---
 
 <div class="ap">
